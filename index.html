@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empowering the Nation - Skills Training Academy. Professional courses in First Aid, Sewing, Cooking, Landscaping, and more to build a skilled nation.">
+    <meta name="keywords" content="empowering the nation, skills training, courses, first aid, sewing, cooking, landscaping, life skills, education south africa">
+    <title>Empowering the Nation - Skills Training Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Empowering the Nation Logo" width="50">
+                <span>Empowering the Nation</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Courses ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="six-month-courses.html">6-Month Courses</a></li>
+                        <li><a href="six-week-courses.html">6-Week Courses</a></li>
+                    </ul>
+                </li>
+                <li><a href="#calculator">Fee Calculator</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering the Nation Through Skills Development</h1>
+            <p>Building a skilled, confident, and employable nation through quality education and practical training</p>
+            <div class="hero-buttons">
+                <a href="six-month-courses.html" class="btn btn-primary">Explore 6-Month Courses</a>
+                <a href="six-week-courses.html" class="btn btn-secondary">Browse 6-Week Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Empowering the Nation</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>To transform communities through accessible, quality skills training that creates employment opportunities and fosters economic growth.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>A nation where every individual has the practical skills and confidence to build a better future for themselves and their communities.</p>
+                    
+                    <h3>Why Choose Us?</h3>
+                    <ul>
+                        <li>✅ Industry-experienced instructors</li>
+                        <li>✅ Hands-on practical training</li>
+                        <li>✅ Affordable payment options</li>
+                        <li>✅ Job placement assistance</li>
+                        <li>✅ Nationally recognized certificates</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>500+</h4>
+                        <p>Students Trained</p>
+                    </div>
+                    <div class="stat">
+                        <h4>95%</h4>
+                        <p>Employment Rate</p>
+                    </div>
+                    <div class="stat">
+                        <h4>7</h4>
+                        <p>Courses Available</p>
+                    </div>
+                    <div class="stat">
+                        <h4>5</h4>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="container">
+            <h2>Our Skills Development Programs</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <img src="images/first-aid.jpg" alt="First Aid Training">
+                    <h3>First Aid Training</h3>
+                    <p>Life-saving emergency response skills for communities and workplaces</p>
+                    <a href="courses/first-aid.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/sewing.jpg" alt="Sewing Course">
+                    <h3>Professional Sewing</h3>
+                    <p>Create income through garment construction and alterations</p>
+                    <a href="courses/sewing.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/cooking.jpg" alt="Cooking Course">
+                    <h3>Culinary Arts</h3>
+                    <p>Professional cooking skills for home kitchens and catering businesses</p>
+                    <a href="courses/cooking.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fee Calculator -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <h2>Course Fee Calculator</h2>
+            <p class="section-subtitle">Plan your education with our flexible payment options</p>
+            <div class="calculator">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="courseSelect">Select Course:</label>
+                        <select id="courseSelect">
+                            <option value="">Choose a course</option>
+                            <optgroup label="6-Month Professional Courses">
+                                <option value="first-aid" data-fee="8000" data-duration="6">First Aid Training - R8,000</option>
+                                <option value="sewing" data-fee="7500" data-duration="6">Professional Sewing - R7,500</option>
+                                <option value="cooking" data-fee="8500" data-duration="6">Culinary Arts - R8,500</option>
+                            </optgroup>
+                            <optgroup label="6-Week Skills Programs">
+                                <option value="life-skills" data-fee="2500" data-duration="1.5">Life Skills Development - R2,500</option>
+                                <option value="landscaping" data-fee="3000" data-duration="1.5">Landscaping - R3,000</option>
+                                <option value="child-minding" data-fee="2800" data-duration="1.5">Child Minding - R2,800</option>
+                                <option value="garden-maintenance" data-fee="2200" data-duration="1.5">Garden Maintenance - R2,200</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="paymentPlan">Payment Plan:</label>
+                        <select id="paymentPlan">
+                            <option value="full">Full Payment (5% discount)</option>
+                            <option value="installment">Monthly Installments</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="installmentGroup" style="display: none;">
+                        <label for="installmentMonths">Installment Period:</label>
+                        <select id="installmentMonths">
+                            <option value="2">2 Months</option>
+                            <option value="3">3 Months</option>
+                            <option value="4">4 Months</option>
+                            <option value="6">6 Months</option>
+                        </select>
+                    </div>
+
+                    <button onclick="calculateFees()" class="btn btn-primary">Calculate Fees</button>
+                </div>
+
+                <div class="calculator-results">
+                    <div id="results" style="display: none;">
+                        <h3>Your Investment</h3>
+                        <div class="result-item">
+                            <span>Course Fee:</span>
+                            <span id="courseFee">R0.00</span>
+                        </div>
+                        <div class="result-item">
+                            <span>Discount:</span>
+                            <span id="discount">R0.00</span>
+                        </div>
+                        <div class="result-item">
+                            <span>Monthly Payment:</span>
+                            <span id="monthlyPayment">R0.00</span>
+                        </div>
+                        <div class="result-item total">
+                            <span>Total Amount:</span>
+                            <span id="totalAmount">R0.00</span>
+                        </div>
+                        <div class="calculator-note">
+                            <p>🎓 <strong>Bursaries available for qualifying students</strong></p>
+                            <p>Contact us for more information about financial assistance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Start Your Journey Today</h2>
+            <p class="section-subtitle">Join thousands of students transforming their lives through skills development</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>📍 Address:</strong>
+                        <p>123 Education Street<br>Johannesburg, 2000</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Phone:</strong>
+                        <p>+27 11 123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong>
+                        <p>info@empoweringthenation.ac.za</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>🕒 Office Hours:</strong>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                           Saturday: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Full Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <input type="tel" placeholder="Your Phone Number">
+                    <select required>
+                        <option value="">Interested in which course?</option>
+                        <option value="first-aid">First Aid Training</option>
+                        <option value="sewing">Professional Sewing</option>
+                        <option value="cooking">Culinary Arts</option>
+                        <option value="life-skills">Life Skills</option>
+                        <option value="landscaping">Landscaping</option>
+                        <option value="child-minding">Child Minding</option>
+                        <option value="garden-maintenance">Garden Maintenance</option>
+                    </select>
+                    <textarea placeholder="Your Message or Questions" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Application Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Empowering the Nation</h4>
+                    <p>Building skills, transforming lives, developing our nation.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="six-month-courses.html">6-Month Courses</a></li>
+                        <li><a href="six-week-courses.html">6-Week Courses</a></li>
+                        <li><a href="#calculator">Fee Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@empoweringthenation.ac.za</p>
+                    <p>📞 +27 11 123 4567</p>
+                    <p>📍 Johannesburg, South Africa</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Empowering the Nation Skills Training Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
